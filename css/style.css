@@ -83,7 +83,7 @@ body{
   padding-bottom: 20px;
   
 }
-.about{
+.global__block{
   padding: 10px;
   background-color: white;
   border-radius: 10px;
@@ -92,8 +92,8 @@ body{
 }
 .global__start{
   height: auto;
-  width: 200px;
-  padding: 10px 10px 10px 10px;
+  width: 220px;
+  padding: 10px;
   margin: 0px auto 10px auto;
   font-size: 34px;
   text-align: center;
@@ -109,4 +109,27 @@ body{
   text-align: right;
   font-size: 16px;
   margin: 0 10px 0 0;
+}
+.table{
+  margin: 0 auto;
+}
+table{
+  border-collapse: collapse;
+}
+tr, td {
+  padding: 3px;
+  border: 2px solid rgb(214, 88, 29);
+}
+.table{
+  background-color: #2b2828;
+  color: white;
+  font-size: 20px;
+}
+.progress{
+  margin: 0 30%;
+}
+.progress__block{
+  background-color: rgb(209, 160, 160);
+  border: 3px solid #000;
+  margin: 0 30%;
 }
