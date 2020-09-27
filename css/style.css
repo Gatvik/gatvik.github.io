@@ -88,11 +88,12 @@ body{
   background-color: white;
   border-radius: 10px;
   margin: 10px 0px;
+  text-align: center;
 
 }
 .global__start{
   height: auto;
-  width: 220px;
+  width: 240px;
   padding: 10px;
   margin: 0px auto 10px auto;
   font-size: 34px;
@@ -132,4 +133,34 @@ tr, td {
   background-color: rgb(209, 160, 160);
   border: 3px solid #000;
   margin: 0 30%;
+  border-radius: 20px;
+}
+.calc__input{
+  font-size: 25px;
+}
+.calc__button{
+  border: 3px solid #000;
+  display: inline-block;
+  margin: 3px auto;
+  font-size: 20px;
+  background-color: rgb(207, 63, 63);
+  padding: 5px;
+  border-radius: 20px;
+}
+.calc__output{
+  border: 3px solid #000;
+  margin: 3px auto;
+  display: block;
+  font-size: 25px;
+  background-color: rgb(224, 129, 209);
+  padding: 5px;
+  border-radius: 20px;
+}
+#input1, #input2{
+  padding: 5px;
+  border-radius: 20px;
+  display: block;
+  margin: 4px auto;
+  border: 3px solid #000;
+  background-color: rgb(92, 179, 89);
 }
